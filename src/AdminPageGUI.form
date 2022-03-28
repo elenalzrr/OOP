@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AdminPageGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="601" height="575"/>
+    </constraints>
+    <properties>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="5c047" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5668154"/>
+          <font name="Matura MT Script Capitals" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="75fba" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Utilizatori"/>
+            </constraints>
+            <properties>
+              <background color="-12340"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="916c8" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="99721" class="javax.swing.JButton" binding="button1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <font name="Chiller" size="24" style="1"/>
+                      <foreground color="-12340"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <component id="3214" class="javax.swing.JButton" binding="button2" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <font name="Chiller" size="24" style="1"/>
+                      <foreground color="-12340"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <component id="77cc0" class="javax.swing.JButton" binding="button3" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <font name="Chiller" size="24" style="1"/>
+                      <foreground color="-12340"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <component id="76821" class="javax.swing.JButton" binding="button4" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <background color="-16777216"/>
+                      <font name="Chiller" size="24" style="1"/>
+                      <foreground color="-12340"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="c01a6">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="cbd18" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Companii"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="60f66" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="1d57a" class="javax.swing.JButton" binding="button5" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="false"/>
+                      <background color="-16777216"/>
+                      <font name="Blackadder ITC" size="20" style="1"/>
+                      <foreground color="-12340"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <grid id="3ed29" binding="panel2" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <focusTraversalPolicyProvider value="false"/>
+                      <focusable value="false"/>
+                      <font name="Bradley Hand ITC" size="20" style="1"/>
+                      <toolTipText value="Departamente:"/>
+                    </properties>
+                    <border type="none" title="Departamente Google:">
+                      <font name="Bradley Hand ITC" size="18" style="1"/>
+                      <title-color color="-4144954"/>
+                    </border>
+                    <children>
+                      <component id="7559b" class="javax.swing.JButton" binding="button7" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-12340"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <vspacer id="a0a95">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="f047" class="javax.swing.JButton" binding="button8" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <focusable value="true"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-12340"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <component id="e9d20" class="javax.swing.JButton" binding="button9" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-12340"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <component id="2418d" class="javax.swing.JButton" binding="button10" default-binding="true">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-12340"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="8d372" class="javax.swing.JButton" binding="button6" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                      <font name="Blackadder ITC" size="20" style="1"/>
+                      <foreground color="-8919297"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <hspacer id="44fd9">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="50" height="20"/>
+                      </grid>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="ceed6">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="883cc" class="javax.swing.JEditorPane" binding="editorPane1" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5668154"/>
+                      <disabledTextColor color="-12340"/>
+                      <text value="Companie - Job"/>
+                    </properties>
+                    <clientProperties>
+                      <JEditorPane.honorDisplayProperties class="java.lang.Boolean" value="false"/>
+                      <JEditorPane.w3cLengthUnits class="java.lang.Boolean" value="false"/>
+                    </clientProperties>
+                  </component>
+                  <grid id="6e575" binding="panel3" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16777216"/>
+                    </properties>
+                    <border type="none" title="Departamente Amazon:">
+                      <font name="Bradley Hand ITC" size="18" style="1"/>
+                      <title-color color="-8919297"/>
+                    </border>
+                    <children>
+                      <component id="d3c45" class="javax.swing.JButton" binding="button11" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-8919297"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <vspacer id="2e754">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="5bb81" class="javax.swing.JButton" binding="button12" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-8919297"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <component id="bd5b0" class="javax.swing.JButton" binding="button13" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-8919297"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                      <component id="d7948" class="javax.swing.JButton" binding="button14" default-binding="true">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-16777216"/>
+                          <font name="Comic Sans MS" style="1"/>
+                          <foreground color="-8919297"/>
+                          <text value="Button"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
